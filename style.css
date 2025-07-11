@@ -170,6 +170,7 @@ main{
     padding: 30px 100px;
     background-color: #FFFFFF;
     margin-top: 120px;
+    border-radius: 10px;
 }
 .focus-content{
     margin-bottom: 25px;
@@ -193,6 +194,74 @@ main{
 }
 /* Focus Section End */
 
+/* Contact Section Start */
+.contact-section{
+    display: flex;
+    gap: 100px;
+    margin: 20px 0;
+    
+}
+.contact-heading-container{
+    display: flex;
+    align-items: center;
+    width: 60%;
+}
+.contact-heading-container h2{
+    font-size: 95px;
+    font-weight: bold;
+    columns: #000000;
+}
+
+.contact-form-container{
+    width: 40%;
+}
+form div{
+    margin: 19px 0;
+}
+
+form label ,input{
+    display: block;
+
+}
+form label{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+}
+
+form input{
+   
+    border: none;
+    background-color: #e7d5d5;
+    border-radius: 7px;
+    width: 100%;
+    padding: 15px 5px;
+    
+}
+
+form textarea{
+    /* padding:10px 30px ; */
+    border: none;
+    background-color: #e7d5d5;
+    border-radius: 7px;
+    width: 100%;
+    padding: 10px 5px;
+}
+
+form button{
+    padding: 10px 110px;
+    display: inline-block;
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+}
+
+
+/* Contact Section End */
 
 
 
