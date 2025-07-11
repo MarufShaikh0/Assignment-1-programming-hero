@@ -44,6 +44,8 @@ ul button{
 /* Main Section Start */
 main{
     margin: 0 159px 0 141px;
+
+   
 }
 /* Main Section End */
 
@@ -162,7 +164,34 @@ main{
 /* Review Section End */
 
 
+/* Focus Section Start */
+.focus-section{
+    text-align: center;
+    padding: 30px 100px;
+    background-color: #FFFFFF;
+    margin-top: 120px;
+}
+.focus-content{
+    margin-bottom: 25px;
+}
 
+.focus-title{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.focus-description{
+    font-size: 13px;
+    font-weight: 500;
+    color: #8987A1;
+}
+
+.focus-img img{
+    width: 100%;
+    height: 450px;
+    border-radius: 48px;
+}
+/* Focus Section End */
 
 
 
@@ -191,5 +220,9 @@ main{
     cursor: pointer;
 }
 
+
+body{
+    background-color: #F5F8FF;;
+}
 
 /* Common Style End */
