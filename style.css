@@ -1,8 +1,7 @@
+
 body{
     background-color: #F5F8FF;
 }
-
-
 
 /* Header Section Start */
 header{
@@ -11,6 +10,7 @@ header{
     background-size: contain;
 }
 /* Header Section End */
+
 
 /* Navbar Start */
 nav{
@@ -23,14 +23,12 @@ nav{
     font-size: 30px;
     color: #4E47FF;
 }
+
 nav ul li{
     list-style: none;
 }
-
-ul button{
-
-}
 /* Navbar End */
+
 
 /* Banner Start */
 .banner{
@@ -43,7 +41,6 @@ ul button{
     font-weight: bold;
     color: #252432;
 }
-
 /* Banner End */
 
 
@@ -52,10 +49,9 @@ ul button{
 main{
     margin: 0 159px 0 141px;
     background-color: #F5F8FF;
-
-   
 }
 /* Main Section End */
+
 
 /* Action Section Start */
 .action-section{
@@ -74,7 +70,6 @@ main{
 .action-description{
     font-size: 24px;
     color: #252432;
-
 }
 
 .action-section img{
@@ -83,7 +78,8 @@ main{
 }
 /* Action Section End */
 
-/* Stats-Section  Start */
+
+/* Stats-Section Start */
 .stats-section{
     background-color: #E5E7FF;
     text-align: center;
@@ -102,36 +98,34 @@ main{
     display: flex;
     justify-content: space-around;
 }
+
 .stats-items h3{
     font-size: 80px;
     font-weight: bold;
     color: #8987A1;
     margin-bottom: 5px;
 }
+
 .stats-items p{
     font-size: 20px;
-    color: #B2B4C7;
-    
+    color: #B2B4C7; 
 }
 /* Stats-Section End */
 
-/* Review Section Start */
-.review-section{
-    
-}
 
+/* Review Section Start */
 .review-title{
     font-size: 42px;
     font-weight: bold;
     color: #252432;
     text-align: center;
 }
+
 .review-cards{
     display: flex;
-    gap: 10px;
-    
-    
+    gap: 10px; 
 }
+
 .review-card{
     background-color: #fdf8f8;
     width: 350px;
@@ -156,19 +150,20 @@ main{
     align-items: center;
     gap: 20px;
 }
+
 .card-user img{
    border-radius: 15px;
 }
+
 .card-user-content h4{
     font-size: 12px;
     color: #757575;
-    margin: 0;
-    
+    margin: 0;  
 }
+
 .card-user-content p{
     font-size: 9px;
-    color: #B3B3B3;
-    
+    color: #B3B3B3;  
 }
 /* Review Section End */
 
@@ -181,6 +176,7 @@ main{
     margin-top: 120px;
     border-radius: 10px;
 }
+
 .focus-content{
     margin-bottom: 25px;
 }
@@ -190,6 +186,7 @@ main{
     font-weight: bold;
     margin-bottom: 20px;
 }
+
 .focus-description{
     font-size: 17px;
     font-weight: 500;
@@ -203,18 +200,20 @@ main{
 }
 /* Focus Section End */
 
+
 /* Contact Section Start */
 .contact-section{
     display: flex;
     gap: 100px;
     margin: 20px 0;
-    
 }
+
 .contact-heading-container{
     display: flex;
     align-items: center;
     width: 60%;
 }
+
 .contact-heading-container h2{
     font-size: 95px;
     font-weight: bold;
@@ -224,14 +223,15 @@ main{
 .contact-form-container{
     width: 40%;
 }
+
 form div{
     margin: 19px 0;
 }
 
 form label ,input{
     display: block;
-
 }
+
 form label{
     font-size: 18px;
     font-weight: 500;
@@ -239,13 +239,11 @@ form label{
 }
 
 form input{
-   
     border: none;
     background-color: #ffffff;
     border-radius: 7px;
     width: 100%;
-    padding: 15px 5px;
-    
+    padding: 15px 5px; 
 }
 
 form textarea{
@@ -268,7 +266,13 @@ form button{
     border: none;
     width: 100%;
 }
+
+form button:hover{
+    background-color: chocolate;
+    transition: .5s;
+}
 /* Contact Section End */
+
 
 
 /* Footer Section Start */
@@ -278,8 +282,6 @@ form button{
     background-color: #FFFFFF;
     height: 200px;
 }
-
-
 
 .footer-title{
     font-size: 100px;
@@ -299,21 +301,19 @@ form button{
 .footer-link-container li{
     list-style: none;
 }
+
 .footer-link-container a{
     text-decoration: none;
     margin: 15px;
     color: #8987A1;
     font-size: 16px;
 }
-
-
 /* Footer Section End */
 
 
 
 
 /* Common Style Start */
-
 .inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -334,7 +334,10 @@ form button{
     border: none;
     cursor: pointer;
 }
-
-
-
+.btn-primary:hover{
+    background-color:tomato;
+    transition: all .6s;
+    text-decoration: underline;
+   
+}
 /* Common Style End */
