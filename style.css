@@ -308,6 +308,10 @@ form button:hover{
     color: #8987A1;
     font-size: 16px;
 }
+.footer-link-container a:hover{
+    color: tomato;
+    text-decoration: underline;
+}
 /* Footer Section End */
 
 
