@@ -50,6 +50,10 @@ main{
     margin: 0 159px 0 141px;
     background-color: #F5F8FF;
 }
+
+main section{
+    margin: 70px 0;
+}
 /* Main Section End */
 
 
